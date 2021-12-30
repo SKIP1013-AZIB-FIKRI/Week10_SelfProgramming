@@ -1,8 +1,8 @@
-package myARRAY;
+package SelfProgramming;
 
 import java.util.Scanner;
 
-public class ReverseOrder {
+public class Exercise1 {
 
 	   public static void main(String [] args)
 	    {
