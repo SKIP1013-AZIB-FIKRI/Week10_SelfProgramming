@@ -1,0 +1,20 @@
+package SelfProgramming;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Array2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> cars = new ArrayList<String>();
+		Scanner input = new Scanner(System.in);
+		int slot;
+	    cars.add("Volvo");
+	    cars.add("BMW");
+	    cars.add("Ford");
+	    cars.add("Mazda");
+	    System.out.println("What slot do use which to see (0 - 3): ");
+	    slot = input.nextInt();
+	    System.out.println(cars.get(slot));
+	}
+
+}
